@@ -145,7 +145,10 @@ color: white;
         display: flex;
     }
 
-    #main-nav li, .col1of2, .subcol {
+    #main-nav li, 
+    #sub-content li, 
+    .col1of2, 
+    .subcol {
         flex: 1;
     }
     
