@@ -92,6 +92,7 @@ body {
 #main-footer {
     text-align: center;
     font-size: small;
+    color: #6D2932;
 }
 
 h3 {
@@ -124,7 +125,7 @@ h3 {
     display: flex;
 }
 
-.subcol h3 {
+.subcol h3, p{
     font-size: larger;
     font-style: oblique;
 color: white;
@@ -134,6 +135,9 @@ color: white;
     margin: 0 200px; /* Adjust the margin as needed */
 }
 
+.main-foot p {
+    color: #561C24;
+}
 @media (min-width: 900px) {
     #main-nav ul,
     #sub-content ul, 
