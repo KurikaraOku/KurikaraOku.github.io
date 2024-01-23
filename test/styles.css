@@ -1,0 +1,44 @@
+#assignments-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 10vh;
+}
+
+.assignment-square {
+    text-align: center;
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #901010; /* Set the desired background color */
+    border-radius: 5px;
+    flex-direction: column;
+}
+
+.assignment-square h2 {
+    color: white;
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+
+.assignment-square p {
+    color: white;
+}
+
+.content img {
+    width: 100%;
+    height: auto;
+}
+
+.assignment-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 555px) {
+    .assignment-square {
+        width: 50%; /* Make each square take up the full width */
+    }
+}

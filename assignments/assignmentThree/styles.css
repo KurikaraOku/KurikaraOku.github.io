@@ -125,7 +125,7 @@ h3 {
     display: flex;
 }
 
-.subcol h3, p{
+.subcol h3, aside {
     font-size: larger;
     font-style: oblique;
 color: white;
