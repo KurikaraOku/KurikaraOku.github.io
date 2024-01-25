@@ -1,0 +1,99 @@
+/* Structure */
+body {
+    background: #ae5151;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url('https://images.unsplash.com/photo-1578297886235-c521966ea880?q=80&w=1035&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.content-container {
+    max-width: 800px; 
+    margin: auto;
+    padding: 0px; 
+    background-color: rgba(255, 255, 255, 0.8); 
+}
+
+#content { /* background for center margin */
+    background: rgba(0, 0, 0, .85);
+    width: 80%;
+    padding-top: 1%;
+    border-radius: 30px;
+}
+
+.image-container img {
+    max-width: 100%; 
+    margin: 5%; 
+    padding: 10px;
+    border: 5px solid #ffffff;
+    border-radius: 5px;
+}
+
+
+/* Navigation */
+a {
+    text-decoration: none;
+    background-color: #000000;
+    border: 2px solid;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+nav {
+    text-align: center;
+    margin-bottom: 20px; 
+}
+
+nav a {
+    margin: 0 10px; 
+    text-decoration: none;
+    color: #ffffff;
+}
+
+nav a:hover {
+    color: #ff0000; 
+}
+
+/* Text Deco */
+
+a {
+    color: white;
+}
+
+p {
+    text-align: center;
+    color: #ffffff;
+    padding-top: 0;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    color: rgb(188, 34, 34);
+}
+
+strong {
+    color: #c32727;
+    font-size: 20px;
+}
+
+/* table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    text-align: left;
+}
+
+th {
+    background-color: #b03939;
+    color: #fff;
+}

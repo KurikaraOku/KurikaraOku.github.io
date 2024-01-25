@@ -1,0 +1,160 @@
+/* Structure */
+body {
+    background-color: #E8D8C4;
+}
+
+h1 {
+    color: #6D2932;
+}
+#main-header {
+    font-size: small;
+}
+
+#main-content {
+    background-color: #C7B7A3;
+    border-radius: 2px;
+    padding: 0px;
+    padding-bottom: 0px;
+    border: 2px solid rgb(255, 255, 255);
+}
+
+#sub-content {
+    background-color: #6D2932;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 2px;
+    padding: 0px;
+    padding-bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+.col1of2 {
+    background-color:#C7B7A3;
+    padding: 5px;
+    margin: px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 2px;
+}
+
+.col2of2 {
+    border: 2px solid white;
+}
+
+.col2of2 p {
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    background-color: rgb(92, 80, 62);
+    align-items: center;
+    padding-top: 85px;
+    justify-content: center;
+}
+
+/* Navigation */
+#main-nav ul {
+    padding-left: 0;
+}
+
+#main-nav li {
+    padding: 5px;
+    text-align: center;
+    list-style-type: none;
+    background-color: rgb(153, 127, 94);
+    border: .1px solid rgb(255, 255, 255);
+    border-radius: 2px;
+}
+
+#main-content li {
+    list-style-type: none;
+    padding-left: 0px;
+    text-align:left;
+}
+
+#main-nav a {
+    text-decoration: none;
+    color: #561C24;
+}
+
+/* Typography */
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#main-header h1 {
+    text-align: center;
+}
+
+#main-footer {
+    text-align: center;
+    font-size: small;
+    color: #6D2932;
+}
+
+h3 {
+    padding-left: 10px;
+}
+
+#sub-content ul {
+    padding-left: 0;
+}
+
+#sub-content li {
+    padding: 5px;
+    text-align: center;
+    list-style-type: none;
+
+    border-radius: 2px;
+}
+
+.col1of2 h3, ul {
+    color: #6D2932;
+}
+
+.col2of2 h3 {
+    color: #6D2932;
+}
+.subcol ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.subcol h3, aside {
+    font-size: larger;
+    font-style: oblique;
+color: white;
+}
+
+.subcol li {
+    margin: 0 200px; /* Adjust the margin as needed */
+}
+
+.main-foot p {
+    color: #561C24;
+}
+@media (min-width: 900px) {
+    #main-nav ul,
+    #sub-content ul, 
+    .flex-container {
+        display: flex;
+    }
+
+    #main-nav li, 
+    #sub-content li, 
+    .col1of2, 
+    .subcol {
+        flex: 1;
+    }
+    
+    .col2of2 {
+        flex: 3;
+        display: flex;
+    }
+
+}
