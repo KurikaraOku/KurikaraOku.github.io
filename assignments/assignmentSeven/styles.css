@@ -1,0 +1,87 @@
+/* Structure/Body */
+body {
+    background-color: #ADBC9F;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* Headings */
+h1 {
+    color: #436850;
+}
+h2 {
+    color: #12372A;
+}
+/* Container & Column Styling */
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.column {
+    background-color: #FBFADA;
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+    margin: 10px;
+    height: 500px;
+    border-color: rgb(0, 110, 42);
+    border-width: 3px;
+    border-radius: 7px;
+}
+.column h2 {
+    color: #436850;
+}
+.column p {
+    margin-top: 40px;
+    color: #436850;
+}
+/* Square Styling */
+.square {
+    width: 200px;
+    height: 200px;
+    background-color: #436850;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.square p {
+    color: white;
+}
+/* Final Column Color */
+.column:last-child {
+    background-color: #436850;
+}
+.column:last-child h2 {
+    color: white;
+}
+/* Footer */
+.main-foot p {
+    color: #436850;
+}
+/* Custom styling for the slider */
+input[type="range"] {
+    width: 100%;
+    margin-top: 10px;
+    height: 10px;
+    background: #ccc;
+}
+/* Style for the stars */
+.star {
+    width: 30px;
+    height: 30px;
+}
+.column:last-child {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+/* Media Query */
+@media (max-width: 768px) {
+    .column {
+        flex: 0 0 100%;
+        width: 100%;
+   }
+}

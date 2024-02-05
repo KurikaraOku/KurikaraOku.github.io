@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="styles.css">
+      <title>Assignment 7</title>
+   </head>
+   <body>
+      <h1>Assignment 7</h1>
+      <h2>Introduction to JavaScript</h2>
+      <div class="container">
+         <div class="column" id="changeImageColumn">
+            <h2>Change Image</h2>
+            <div class="square" onclick="changeImage()">
+               <img id="imageToggle" src="1.jpg" alt="Image" width="200">
+            </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+         </div>
+         <div class="column" id="rotateSliderColumn">
+            <h2>Slider Rotate</h2>
+            <div class="square" id="rotatingSquare">
+               <p>200x200</p>
+            </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <label for="rotationSlider"></label>
+            <input type="range" id="rotationSlider" min="0" max="360" value="0" step="1" onchange="rotateSquare(this.value)">
+         </div>
+         <div class="column" onclick="addStar()">
+            <h2>Stars</h2>
+            <img src="star.png" alt="Star" class="star">
+         </div>
+      </div>
+      <section class="main-foot">
+         <footer id="main-footer">
+            <p>@kurikaraoku.github.io</p>
+         </footer>
+      </section>
+      <script src="script.js"></script>
+   </body>
+</html>
