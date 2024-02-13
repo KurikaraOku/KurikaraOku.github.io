@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="styles.css">
+      <title>Assignment 8</title>
+   </head>
+   <body>
+      <h1>Assignment 8</h1>
+      <h2>If Statements</h2>
+      <p><a href="#" onclick="switchTab('exercise1')">Exercise 1</a> | <a href="#" onclick="switchTab('exercise2')">Exercise 2</a></p>
+      <div class="container">
+         <div class="column" id="commandTab">
+            <h2>Enter Command</h2>
+            <div class="square" onclick="changeImage()">
+            </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+         </div>
+      </div>
+      <div class="column" id="exercise1Content">
+         <h4>Enter Command</h4>
+         <div class="container">
+            <ul>
+               <li>b: Read a book</li>
+               <li>c: Act like a clown</li>
+               <li>p: Have a birthday party</li>
+               <li>r: Walk in the rain</li>
+               <li>s: Shovel up some dirt</li>
+               <li>w: Go to work</li>
+            </ul>
+            <input type="text" id="textInput" oninput="changeImage()">  
+         </div>
+         <div id="imageContainer">
+            <img src="" alt="Image" id="image">
+         </div>
+         <p>
+            Image by
+            <a href="https://www.freepik.com/free-vector/hand-drawn-stickman-collection_20856908.htm#query=stick%20figure&position=1&from_view=keyword&track=ais&uuid=12d17ea3-cffc-4386-9be4-ff9dc4b5edc2">Freepik</a>
+         </p>
+      </div>
+      <div class="column" id="exercise2Content">
+         <h2>Yoga Slide</h2>
+         <div class="image-preview">
+            <img src="images/yoga1.jpg" alt="Preview Image" id="previewImage">
+         </div>
+         <div class="slider-container">
+            <input type="range" min="0" max="100" value="0" id="slider">
+         </div>
+         <p>
+            Image by
+            <a href="https://www.freepik.com/free-vector/hand-drawn-stickman-collection_20856908.htm#query=stick%20figure&position=1&from_view=keyword&track=ais&uuid=12d17ea3-cffc-4386-9be4-ff9dc4b5edc2">Freepik</a>
+         </p>
+      </div>
+      <section class="main-foot">
+         <footer id="main-footer">
+            <p>@kurikaraoku.github.io</p>
+         </footer>
+      </section>
+      <script src="script.js"></script>
+   </body>
+</html>
