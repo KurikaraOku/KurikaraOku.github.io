@@ -1,0 +1,89 @@
+[
+    {
+        "_id": 1,
+        "name": "Jordan 1 Lost & Found / Chicago Reimagined",
+        "img_name": "j1.png",
+        "description": "The AJ1 'Chicago' was inspired by the high top Air Jordan 1 original colorway, first released in 1985. The shoe harkens back to a time when shoe boxes were often lost in inventory stockrooms, only to be found again years later.",
+        "color": "Varsity Red/White/Black",
+        "size": "9",
+        "price": 150,
+        "brand": "Nike",
+        "category": "Sneakers"
+    },
+    {
+        "_id": 2,
+        "name": "Kith Treats Cafe: Tokyo T Shirt",
+        "img_name": "p2.png",
+        "description": "Description for Kith Treats Cafe: Tokyo T Shirt",
+        "color": "White",
+        "size": "M",
+        "price": 45,
+        "brand": "Kith",
+        "category": "Apparel"
+    },
+    {
+        "_id": 3,
+        "name": "Jordan 4: Bred Reimagined",
+        "img_name": "p3.png",
+        "description": "Description for Jordan 4: Bred Reimagined",
+        "color": "Black/Red",
+        "size": "13",
+        "price": 200,
+        "brand": "Nike",
+        "category": "Sneakers"
+    },
+    {
+        "_id": 4,
+        "name": "BAPE Color Camo Big Ape Head Tee",
+        "img_name": "p5.png",
+        "description": "Description for BAPE Color Camo Big Ape Head Tee",
+        "color": "Multi-color",
+        "size": "S",
+        "price": 90,
+        "brand": "BAPE",
+        "category": "Apparel"
+    },
+    {
+        "_id": 5,
+        "name": "Arc'teryx Jacket Black",
+        "img_name": "p6.png",
+        "description": "Description for Arc'teryx Jacket Black",
+        "color": "Black",
+        "size": "L",
+        "price": 300,
+        "brand": "Arc'teryx",
+        "category": "Outerwear"
+    },
+    {
+        "_id": 6,
+        "name": "Nike Air Max 90",
+        "img_name": "p7.png",
+        "description": "Description for Nike Air Max 90",
+        "color": "White/Black",
+        "size": "10",
+        "price": 120,
+        "brand": "Nike",
+        "category": "Sneakers"
+    },
+    {
+        "_id": 7,
+        "name": "Gucci Belt",
+        "img_name": "p8.png",
+        "description": "Description for Gucci Belt",
+        "color": "Brown",
+        "size": "32",
+        "price": 350,
+        "brand": "Gucci",
+        "category": "Accessories"
+    },
+    {
+        "_id": 8,
+        "name": "Fenty Beauty Highlighter",
+        "img_name": "p9.png",
+        "description": "Description for Fenty Beauty Highlighter",
+        "size": "One Size",
+        "price": 40,
+        "brand": "Fenty Beauty",
+        "category": "Cosmetics"
+    }
+]

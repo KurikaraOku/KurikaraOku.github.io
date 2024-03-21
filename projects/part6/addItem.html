@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="styles.css">
+      <link rel="stylesheet" href="../../fontawesome-free-6.5.1-web/css/all.min.css">
+      <title>KuriKicks</title>
+   </head>
+   <body>
+      <!-- Header Content (WIP, icons aren't working when clicked?) -->
+      <div id="menu-header">
+         <div class="menu-icons">
+            <nav>
+               <div class="navbar">
+                  <div class="container nav-container">
+                     <input class="checkbox" type="checkbox" name="" id="" />
+                     <div class="hamburger-lines">
+                        <span class="line line1"></span>
+                        <span class="line line2"></span>
+                        <span class="line line3"></span>
+                     </div>
+                     <div class="logo"></div>
+                     <div class="menu-items">
+                        <a href="../part4/" class="menu-item">Home</a>
+                        <a href="inventory.html" class="menu-item">Inventory</a>
+                        <a href="newarrivals.html" class="menu-item">New Arrivals</a>
+                        <a href="contact.html" class="menu-item">Contact Us</a>
+                        <a href="../part4/login.html" class="menu-item">Login</a>
+                     </div>
+                  </div>
+               </div>
+            </nav>
+         </div>
+         <div class="menu-icons">
+            <a href="checkout.html" class="icon-link"><i class="fas fa-shopping-cart"></i></a> <!-- Shopping Cart Icon -->
+            <a href="login.html" class="icon-link"><i class="fas fa-user"></i></a> <!-- Person Icon -->
+         </div>
+      </div>
+      <div id="brand-header">
+         <a href="#" id="brand-name">KuriKicks</a>
+      </div>
+      <!-- Page Content -->
+      <div id="contact-header">
+         <h1>REQUEST FORM</h1>
+         <h4>Please put down what item you are requesting to sell to us!</h4>
+         <p>We we evaluate it in our database and contact you as soon as we can.</p>
+         <div class="form-container">
+            <!-- Item input -->
+            <form id="contact-form" action="" method="post">
+               <div class="form-group">
+                  <label for="item">Requested Item:</label>
+                  <textarea id="item" name="item" placeholder="Item." required>
+               </div>
+               <!-- Description input -->
+               <div class="form-group">
+                  <label for="item desc">Description:</label>
+                  <textarea id="message" name="message" placeholder="Item Description." required></textarea>
+               </div>
+               <!-- Description input -->
+               <div class="form-group">
+                  <label for="item color">Color:</label>
+                  <textarea id="message" name="color" placeholder="Color." required></textarea>
+               </div>
+               <!-- Brand input -->
+               <div class="form-group">
+                  <label for="brand">Brand:</label>
+                  <textarea id="message" name="brand" placeholder="Brand." required></textarea>
+               </div>
+               <!-- Category input -->
+               <div class="form-group">
+                  <label for="category">Item Category:</label>
+                  <select id="category" name="category" required>
+                     <option value="" disabled selected>Select a category</option>
+                     <option value="Apparel">Apparel</option>
+                     <option value="Outerwear">Outerwear</option>
+                     <option value="Sneakers">Sneakers</option>
+                     <option value="Cosmetics">Cosmetics</option>
+                     <option value="Accessories">Accessories</option>
+                  </select>
+               </div>
+               <button type="submit">Send</button>
+            </form>
+            <div id="status-message"></div>
+         </div>
+      </div>
+      </div>
+      <!-- Footer -->
+      <div id="footer">
+         © kurikaraoku.github.io
+      </div>
+      <script src="form.js"></script>
+   </body>
+</html>
