@@ -100,6 +100,11 @@ a {
     -webkit-background-clip: text;
     color: transparent;
 }
+
+.livedemo a {
+    text-decoration: none;
+color: white;
+}
 /* Larger Resolutions */
 @media (min-width: 200px) {
     #assignments-list, #projects-list {
