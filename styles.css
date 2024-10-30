@@ -1,121 +1,41 @@
-/* Structure */
 body {
-    background-image: url('https://img.freepik.com/free-vector/paper-style-white-monochrome-background_52683-66443.jpg?w=1060&t=st=1706074746~exp=1706075346~hmac=58da30c1dce21abc9a821db5600e3971a9b826daea3eabe79ce48bccdd673181');
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-#projects-list {
     display: flex;
-    justify-content: space-around;
-    padding: 20px; 
-}
-
-#assignments-list {
-    display: flex;
-    justify-content: space-around;
-    padding: 20px; 
-}
-
-.assignment-square {
-    text-align: center;
-    margin: 2px;
-    margin-bottom: 20px;
-    padding: 20px;
-    background-color: #4375ff45; 
-    border: 3px solid #ffffff; 
-    border-radius: 5px;
     flex-direction: column;
-    width: 400px;
-    height: 400px;
-    box-shadow: 0 0 10px #ff9500;
-    transition: box-shadow 0.3s ease-in-out;
-}
-
-.assignment-square:hover {
-    box-shadow: 0 0 20px #ff3cfc;
-}
-
-/* typography */
-h1, h2, h3, p {
-    text-align: center;
-    color: white;
-}
-
-#headtext p {
-    font-size: larger;
-    color: #000000;
-    font-style: italic;
-    text-shadow: 2px 2px 4px #ff8800;
-}
-
-ul, ol {
-    list-style: none;
-    padding: 0;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
     margin: 0;
-}
-
-a {
-    text-decoration: none;
-}
-
-#main-footer p {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #000000;
     text-align: center;
-    font-size: larger;
-    color: #ffffff;
-    font-style: italic;
-    text-shadow: 2px 2px 4px #ff8800;
-}
-
-.header-text-container {
-     background: rgba(0, 0, 0, 0.7);
-    padding: 10px; 
-    border: 3px solid #929292; 
-    border-radius: 5px;
-    text-align: center;
-    margin-bottom: 20px; 
-}
-
-.header-text-container h1, h3, p {
-    color: #fff; 
-}
-
-.header-text-container h1 {
-    font-style: italic;
-    background: linear-gradient(45deg, #ff8000, #eaeaea);
-    -webkit-background-clip: text;
-    color: transparent;
-}
-
-.header-text-container h2 {
-    font-style: italic;
-    background: linear-gradient(45deg, #ff7300, #eaeaea);
-    -webkit-background-clip: text;
-    color: transparent;
-}
-
-.projectbody h2 {
-    color: rgb(215, 186, 148);
-    font-style: italic;
-    background: linear-gradient(45deg, #ff7300, #eaeaea);
-    -webkit-background-clip: text;
-    color: transparent;
-}
-
-.livedemo a {
-    text-decoration: none;
-color: white;
-}
-/* Larger Resolutions */
-@media (min-width: 200px) {
-    #assignments-list, #projects-list {
-        display: flex;
-        justify-content: space-around;
-        align-items: flex-start;
-        flex-wrap: wrap;
-    }
-
-    .assignment-link, .project-link {
-        flex: 0 0 calc(33.33% - 20px);
-        max-width: calc(33.33% - 20px);
-    }
-}
+  }
+  
+  h1 {
+    font-size: 2em;
+    margin: 10px 0;
+  }
+  
+  .progress-bar {
+    width: 80%;
+    max-width: 600px;
+    height: 20px;
+    background-color: #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 10px;
+  }
+  
+  .progress-bar-inner {
+    width: 50%;
+    height: 100%;
+    background-color: #48d4ff;
+    animation: load 2s ease-in-out infinite;
+  }
+  
+  @keyframes load {
+    0% { width: 0; }
+    50% { width: 50%; }
+    100% { width: 0; }
+  }
+  
